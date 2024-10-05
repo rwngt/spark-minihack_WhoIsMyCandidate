@@ -1,0 +1,117 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+/* Candidate Box Styling */
+.candidate-box {
+    background-color: white;
+    width: 45%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+.party-logo img {
+    width: 120px;
+    height: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.candidate-photo img {
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+}
+
+/* Chatbox Styling */
+.chatbox {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 95%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.response {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 50px;
+}
+
+/* Voter Information Styling */
+.voter-info {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 95%;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.voter-info h2 {
+    margin-bottom: 15px;
+}
+
+.voter-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.voter-info ul li {
+    margin: 10px 0;
+}
+
+.voter-info ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.voter-info ul li a:hover {
+    text-decoration: underline;
+}
