@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Information</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Box -->
+    <header>
+        <div>
+            <h1>WhoIsMyCandidate</h1>
+            <p>Ask our candidate chatbots your policy-related questions</p>
+    </header>
+
+    <!-- Main Content with two equal-sized boxes -->
+    <div class="container">
+        <!-- Candidate 1 -->
+        <div class="candidate-box" id="republican-box">
+            <div class="party-logo" id="republican-logo">
+                <img src="images/20200902-180237-republican.png.jpg" alt="Party 1 Logo">
+            </div>
+            <div class="candidate-photo">
+                <img src="images/donald-trump.jpg" alt="Candidate 1 Photo">
+            </div>
+            <div class="chatbox">
+                <textarea placeholder="Ask former President Donald Trump a question..."></textarea>
+                <button onclick="askCandidate1()">Submit</button>
+                <div class="response">
+                    <!-- Candidate 1's chatbot response will appear here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Candidate 2 -->
+        <div class="candidate-box" id="democratic-box">
+            <div class="party-logo" id="democratic-logo">
+                <img src="images/democrat-logo.png" alt="Party 2 Logo">
+            </div>
+            <div class="candidate-photo">
+                <img src="images/kamala-harris.jpg" alt="Candidate 2 Photo">
+            </div>
+            <div class="chatbox">
+                <textarea placeholder="Ask current Vice President Kamala Harris a question..."></textarea>
+                <button onclick="askCandidate2()">Submit</button>
+                <div class="response">
+                    <!-- Candidate 2's chatbot response will appear here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Subtext Box for Voter Information Links -->
+    <div class="voter-info">
+        <h2 id="voterheader">Voter Information</h2>
+        <div id="linkcontainer">
+            <div id="leftsection">
+                <ul>
+                    <li><a target="_blank" href="https://vote.gov/"><i class="fas fa-user-check"></i> <b>Voter Registration</b></a></li>
+                    <li><a target="_blank" href="https://www.usa.gov/find-polling-place"><i class="fas fa-map-marker-alt"></i> Polling Locations</a></li>
+                    <li><a target="_blank" href="https://www.justice.gov/crt/voting-rights-policy-and-guidance"><i class="fas fa-book"></i> Voting Guidelines</a></li>
+                    <li><a target="_blank" href="https://www.usvotefoundation.org/state-election-dates-and-deadlines"><i class="fas fa-calendar-alt"></i> Key Dates</a></li>
+                </ul>
+            </div>
+            <div id="rightsection">
+                <ul>
+                    <li><a target="_blank" href="https://www.donaldjtrump.com/platform"><i class="fas fa-flag"></i> Republican Platform</a></li>
+                    <li><a target="_blank" href="https://kamalaharris.com/issues/"><i class="fas fa-flag"></i> Democratic Platform</a></li>
+                    <li><a target="_blank" href="https://apnews.com/hub/election-2024"><i class="fas fa-newspaper"></i> 2024 Election Info</a></li>
+                    <li><a target="_blank" href="https://www.newsweek.com/kamala-harris-donald-trump-policies-compared-1956795"><i class="fas fa-newspaper"></i> Comparing Policies</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="goal-box">
+        <h2 id="goalheader">Our Goal</h2>
+        <div id="goalcontainer">
+            <p> Voting is one of the most powerful tools that people can use to bring change in their communities, cities, states, and countries
+                Only around ⅔ of eligible voters in the US end up casting a vote in 2020, so increasing voter participation and turnout is key to ensuring that legislative decisions continue to be influenced by the people.
+                Without information about candidates, voters may feel unqualified to discuss election issues or not be in a position to make a decision on who to vote for. 
+                Reliable, easy to digest information is key to giving voters an idea of what each candidate is lobbying for and seeks to implement if they were to be elected. 
+                This can give more power to voters, who can be more confident in their voting choice
+            </p>
+            <p>Our candidate bot gives both reliable and condensed information from each of their campaign websites to users about the candidates’ policies and how they have changed over the course of the campaigns, allowing users to more fully understand the changes at stake within their own communities. 
+                Based on what the users value, they can make more informed decisions with the information from our project.
+            </p>
+        </div>
+    </div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
