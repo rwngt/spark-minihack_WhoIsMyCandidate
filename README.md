@@ -1,7 +1,7 @@
-# WhoIsMyCandidate
+# WhoIsMyCandidate 
+Spark! Minihack (October 2024)
 
 > A voter-information chatbot that helps users compare presidential candidates' policies to make a more informed decision at the polls.
-
 ---
 
 ## Overview
